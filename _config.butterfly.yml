@@ -42,21 +42,21 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.svg
+favicon: https://misakaae.cn/image/favicon.svg
 
 # Avatar (頭像)
 avatar:
-  img: img/favicon.jpg
+  img: https://misakaae.cn/image/favicon.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: img/49170889_p0.webp
+index_img: https://misakaae.cn/image/49170889_p0.webp
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: img/49170889_p0.webp
+default_top_img: https://misakaae.cn/image/49170889_p0.webp
 
 # The banner image of archive page
 archive_img:
@@ -93,8 +93,8 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://misakaae.cn/image/friend_404.gif
+  post_page: https://misakaae.cn/image/404.jpg
 
 # A simple 404 page
 error_404:
@@ -642,7 +642,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: rgb(255,238,255)
 
 # Footer Background
 footer_bg: false
