@@ -24,7 +24,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: "pale night" #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -733,8 +733,8 @@ font:
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font: 
-  font_link: ./font
-  font-family: SmileySans-Oblique-2
+  font_link: 
+  font-family: 
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
