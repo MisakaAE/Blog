@@ -15,7 +15,7 @@ tags:
 
 #文章分类
 categories: 
-    - 影评
+    - 番剧观后感
 
 #文章关键字
 keywords: 
