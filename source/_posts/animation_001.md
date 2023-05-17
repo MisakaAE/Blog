@@ -1,12 +1,12 @@
 ---
 #文章标题
-title: "[影评][番剧][彻夜之歌][2022年7月番][纯爱]"
+title: "[观后感][番剧][近期看的番+23年4月番]"
 
 #文章创建日期
-date: 2023-05-14 17:45:50
+date: 2023-05-15 18:50:50
 
 #文章更新日期
-updated: 
+updated: 2023-05-17 20:59:20
 
 #文章标签
 tags: 
@@ -23,6 +23,7 @@ keywords:
 #文章描述stick
 description: 
     - 2022年7月番
+    - 2023年4月番
 
 #文章顶部图片
 top_img: /img/230514/Yofukashi_no_Uta_KV1.webp
@@ -56,29 +57,21 @@ aside: true
 ---
 
 <!-- 正文部分 -->
-# 影评
+# 番剧
+## 彻夜之歌
 一部十分优秀的作品，总体节奏把控的很好，作画质量放在2022年还是一般般。女主很戳我的XP系统
-
-我也曾有过逃学的念想，但没有像男主一样付诸行动。观看这部番，总是想象自己能拥有一段美好的爱情。但我的青春是**腐烂的**，躺平吧。
+看这部番总是想到自己，我的青春是**腐烂的**，躺平吧。
 {% note pink 'fas fa-star' disabled %}
-个人评分  **9.0/10**
+个人评分  **9.3/10**
 {% endnote %}
 
 
-# 资源链接
-> [星空字幕组&LoliHouse] 彻夜之歌 / Yofukashi no Uta [01-12 合集][WebRip 1080p HEVC-10bit AAC][简繁日内封字幕][Fin]
-> 人人为我，我为人人，为了各位能快速下载，请使用uTorrent / qBittorrent 等正规 BT 软件下载，并保持开机上传，谢谢~
-> {% btn 'magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&amp;tr=http://open.acgtracker.com:1096/announce',磁力链接,fas fa-link,pink larger %}
 
-```no-highlight
-magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&tr=http://open.acgtracker.com:1096/announce
-```
 
-# 介绍
-## 原作介绍
+### 原作介绍
 本作于《周刊少年Sunday》2019年第39号开始连载。
 获「下一部人气漫画大赏2020」漫画部门第7位、「全国书店店员推荐漫画2021」第8位
-## 剧情介绍
+### 剧情介绍
 “第一次在夜里，没和任何人打招呼就出去了。”
 
 对女人不感兴趣的初中二年级学生夜守光，现在不知为何逃学了。
@@ -104,7 +97,7 @@ magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&tr=http://open.acgt
 两人特殊的“甜蜜”就此开始——
 
 
-## Staff
+### Staff
 * 原作：《彻夜之歌》／琴山（小学馆「周刊少年Sunday」连载中）
 * 监督：板村智幸
 * 首席监督：宫西哲也
@@ -114,13 +107,96 @@ magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&tr=http://open.acgt
 
 
 <!-- 结尾 -->
-# 封面
+### 封面
 ![Pic01](/img/230514/Yofukashi_no_Uta_KV1.webp)
 ![Pic02](/img/230514/Yofukashi_01.webp)
 
+### 资源链接
+> [星空字幕组&LoliHouse] 彻夜之歌 / Yofukashi no Uta [01-12 合集][WebRip 1080p HEVC-10bit AAC][简繁日内封字幕][Fin]
+> 人人为我，我为人人，为了各位能快速下载，请使用uTorrent / qBittorrent 等正规 BT 软件下载，并保持开机上传，谢谢~
+> {% btn 'magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&amp;tr=http://open.acgtracker.com:1096/announce',磁力链接,fas fa-link,pink larger %}
 
-# Links
+```no-highlight
+magnet:?xt=urn:btih:d231a61d1f6e89f35a92c45753e20382ce583bf2&tr=http://open.acgtracker.com:1096/announce
+```
+
+### Links
 {% btn 'https://zh.moegirl.org.cn/%E5%BD%BB%E5%A4%9C%E4%B9%8B%E6%AD%8C','萌娘百科',fas fa-link,outline larger %}
 {% btn 'https://yofukashi-no-uta.com','动画官网',fas fa-link,outline larger %}
 {% btn 'https://websunday.net/work/724/','漫画官网',fas fa-link,outline larger %}
 {% btn 'https://twitter.com/yofukashi_pr','官方推特',fas fa-link,outline larger %}
+
+
+<!-- 正文部分 -->
+## 放学后失眠的你
+<!-- 内容Start -->
+四月纯爱番天花板，画面细腻，人物感情描写细致
+纯爱战士非常满足
+![PicAnimation](/img/230515/E05-1949.png)
+第五话19:49场景，看得我疯狂在床上打滚
+每周最期待的番之一
+<!-- End -->
+{% note pink 'fas fa-star' disabled %}
+个人评分  **9.8/10**
+{% endnote %}
+
+
+
+
+### 原作介绍
+本作于2019年5月20日发售的《Big Comic Spirits》2019年第25号上开始连载，以石川县能登半岛为舞台，描绘了“睡不着”的高中生的青春期生活。
+
+### 剧情介绍
+因失眠而烦恼的高中男生中见邂逅了有同样烦恼的伊咲。
+
+放学后，在现已成为仓库的学校天文台，
+转瞬即逝的睡眠后，一段共有秘密的奇妙关系开始了……
+
+读着读着就会开心地笑起来，然后和他们一同陷入恬静的睡眠中。
+同时也直接描绘了男生女生从友情到恋情的青涩。
+
+“你的不眠之夜一定也有其意义。”
+
+在每四个日本人中就有一人患有睡眠障碍，青少年的失眠症患者也在剧增的现代，
+在疲惫不堪却又睡不着的痛苦的漫漫长夜里，
+这是一部告诉你“不再孤单一人”的作品。
+
+### Staff
+* 原作：绪城真《放学后失眠的你》（小学馆《周刊Big Comic Spirits》连载中）
+* 监督：池田由纪
+* 动画制作人：佐佐木悠祐
+* 动画制作：[LIDENFILMS](https://zh.moegirl.org.cn/LIDENFILMS)
+* 出品：动画「君ソム」制作委员会
+
+
+<!-- 结尾 -->
+### 封面
+![Pic01](/img/230515/Kimisomu_KV2.webp)
+![Pic02]()
+
+### 资源链接
+> 待上传
+> 这里只会上传合集种子，现在可以去喵漫下载BT，我看的是LoliHouse翻制的
+> 人人为我，我为人人，为了各位能快速下载，请使用uTorrent / qBittorrent 等正规 BT 软件下载，并保持开机上传，谢谢~
+> {% btn 'LLLIIINNNKKK',磁力链接,fas fa-link,pink larger %}
+> {% btn 'http://kisssub.122000.xyz/',喵漫BT,fas fa-link,pink larger %}
+
+
+```no-highlight
+等待上传
+```
+
+### Links
+{% btn 'https://zh.moegirl.org.cn/%E6%94%BE%E5%AD%A6%E5%90%8E%E5%A4%B1%E7%9C%A0%E7%9A%84%E4%BD%A0','萌娘百科',fas fa-link,outline larger %}
+{% btn 'https://kimisomu-anime.com/','动画官网',fas fa-link,outline larger %}
+{% btn 'https://bigcomicbros.net/work/6437/','漫画官网',fas fa-link,outline larger %}
+{% btn 'https://twitter.com/nekoteraphoto','动画官方推特',fas fa-link,outline larger %}
+{% btn 'https://twitter.com/nekoteraphoto','官方推特',fas fa-link,outline larger %}
+
+
+## 我内心的糟糕念头
+
+
+
+
+
