@@ -98,7 +98,7 @@ aside: true
 
 <!-- 结尾 -->
 ### 封面
-![Pic01](\img\animation_001\Yofukashi_no_Uta_KV1.webp)
+![Pic01](/img/animation_001/Yofukashi_no_Uta_KV1.webp)
 
 
 ### Links
@@ -412,7 +412,7 @@ aside: true
 <!-- 内容Start -->
 四月纯爱番天花板，画面细腻，人物感情描写细致
 纯爱战士非常满足
-![PicAnimation](\img\animation_001\E05-1949.png)
+![PicAnimation](/img/animation_001/E05-1949.png)
 第五话19:49场景，看得我疯狂在床上打滚
 每周最期待的番之一
 <!-- End -->
@@ -449,7 +449,7 @@ aside: true
 
 <!-- 结尾 -->
 ### 封面
-![Pic01](\img\animation_001\Kimisomu_KV2.webp)
+![Pic01](/img/animation_001/Kimisomu_KV2.webp)
 
 
 ### Links
