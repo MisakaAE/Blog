@@ -486,7 +486,7 @@ aside: true
 ### Images
 ![Pic](/img/animation_001/Bokuyaba_KV2.webp)
 * 作者の照片↓
-![作者](/image/animation_001/樱井纪雄.webp)
+![作者](/img/animation_001/sakurainorio.webp)
 ![screenshot](/img/animation_001/screenshot_bokuyabai01.png)
 ### Links
 
