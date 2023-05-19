@@ -61,7 +61,7 @@ aside: true
 ## 01.彻夜之歌
 一部十分优秀的作品，总体节奏把控的很好，作画质量放在2022年还是一般般。女主很戳我的XP系统
 看这部番总是想到自己，我的青春是**腐烂的**，躺平吧。
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **9.3/10**
 {% endnote %}
 
@@ -97,7 +97,7 @@ aside: true
 
 
 <!-- 结尾 -->
-### 封面
+### Images
 ![Pic01](/img/animation_001/Yofukashi_no_Uta_KV1.webp)
 
 
@@ -117,7 +117,7 @@ aside: true
 ### 评价
 高开低走，最后几话的剧情无厘头脑残，好在是good end，评价一般
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **6.8/10**
 {% endnote %}
 
@@ -150,7 +150,7 @@ aside: true
 ### 评价 
 同样也是高开低走，让人失望，我补番到半夜，你就这么对我？什么？编剧是老虚啊，那没事了。没有活整可以自杀，老虚越来越不行了。
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **3.7/10**
 {% endnote %}
 
@@ -174,7 +174,7 @@ aside: true
 
 ### 评价
 日常向的番，每次看的都想点外卖，馋死我了。MAPPA制作，质量没啥大问题。
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **8.8/10**
 {% endnote %}
 
@@ -213,7 +213,7 @@ aside: true
 ### 评价
 1月最喜欢看的番，就喜欢这种画风精美的日常番，满足了我的奇怪幻想(?)
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **9.4/10**
 {% endnote %}
 
@@ -235,7 +235,7 @@ aside: true
 动画制作：[STUDIO BIND](https://zh.moegirl.org.cn/STUDIO_BIND)
 出品：「别酱了」制作委员会（东宝、博报堂DY Music & Pictures、一迅社、AT-X、BS11、PIA、波丽佳音、Movic、TOKYO MX、Bit grooove promotion、EGG FIRM）
 
-### 封面
+### Images
 ![封面](/img/animation_001/Onimai_KV.webp)
 
 ### Links
@@ -255,7 +255,7 @@ aside: true
 ### 评价
 非常喜欢的番，琴子小姐还是那么会说骚话，制作方面挑不出毛病，反转很多，看的很满足。
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **9.3/10**
 {% endnote %}
 
@@ -287,7 +287,7 @@ aside: true
 ### 评价
 高级厕纸，无脑爽就完事了
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **7.0/10**
 {% endnote %}
 
@@ -321,7 +321,7 @@ aside: true
 ### 评价
 比较喜欢看这种百合番，现在前面的内容还可以，结尾节奏太快了，有点烂，公主的配音老是让我想到千束www
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **8.2/10**
 {% endnote %}
 
@@ -355,7 +355,7 @@ aside: true
 还是异世界番，说是厕纸吧也算不上，观感可以的。老丈人认可斋藤很舒服。ED是MIMI的曲子，很好听。
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2018431891&auto=0&height=66"></iframe>
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **8.9/10**
 {% endnote %}
 
@@ -364,7 +364,7 @@ aside: true
 ## 妖幻三重奏 -延期-
 ### 评价
 待评价
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **?/10**
 {% endnote %}
 
@@ -375,7 +375,7 @@ aside: true
 ### 评价
 终于出第二季了，很喜欢的校园番，学长终于出息了，你们快点原地结婚！
 
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **9.0/10**
 {% endnote %}
 
@@ -416,7 +416,7 @@ aside: true
 第五话19:49场景，看得我疯狂在床上打滚
 每周最期待的番之一
 <!-- End -->
-{% note pink 'fas fa-star' disabled %}
+{% note orange 'fas fa-star' disabled %}
 个人评分  **9.8/10**
 {% endnote %}
 
@@ -448,7 +448,7 @@ aside: true
 
 
 <!-- 结尾 -->
-### 封面
+### Images
 ![Pic01](/img/animation_001/Kimisomu_KV2.webp)
 
 
@@ -460,4 +460,34 @@ aside: true
 {% btn 'https://twitter.com/nekoteraphoto','官方推特',fas fa-link,outline larger %}
 
 
+## 我内心的糟糕念头
+### 评价
+非常甜的番，女主耍小心机的时候很可爱，很喜欢卷这种番
+甜的在床上死亡翻滚（扬子鳄式）
+作者也是个可爱的美少女（喜 
 
+
+{% note orange 'fas fa-star' disabled %}
+个人评分  **9.65/10**
+{% endnote %}
+
+### 介绍
+有着重度中二病的阴沉少年市川京太郎，因为很看不惯位于学校金字塔顶端的阳角美少女山田杏奈，每天都在妄想着要怎么结束掉她的性命。没想到在一次偶然情况下，京太郎撞见了杏奈不为人知的一面，爱吃零食的她常躲进京太郎的圣地图书室偷吃零食，就这样图书室变成了他们两个交集的秘密基地。
+随着市川的一步步观察，他发现平时以“清高、阳光”等性格示人的山田有着不为人知的一面…… 阴暗少年京太郎的初恋，萌芽了！
+阳角美少女×阴角男子，原本不可能缩短距离的两人，会发生奇迹吗？极甜的青涩校园爱情喜剧开始——！
+
+### Staff
+原作：樱井纪雄（秋田书店《Manga Cross》连载）
+监督：赤城博昭
+动画制作人：樱井洋介
+动画制作：SHIN-EI动画
+出品：僕ヤバ制作委员会
+
+### Images
+![Pic](/img/animation_001/Bokuyaba_KV2.webp)
+* 作者の照片↓
+![作者](/image/animation_001/樱井纪雄.webp)
+![screenshot](/img/animation_001/screenshot_bokuyabai01.png)
+### Links
+
+https://zh.moegirl.org.cn/%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF
