@@ -489,5 +489,9 @@ aside: true
 ![作者](/img/animation_001/sakurainorio.webp)
 ![screenshot](/img/animation_001/screenshot_bokuyabai01.png)
 ### Links
-
-https://zh.moegirl.org.cn/%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF
+{% btn 'https://zh.moegirl.org.cn/%E6%88%91%E5%BF%83%E9%87%8C%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%9C%E8%A5%BF','萌娘百科',fas fa-link,outline larger %}
+{% btn 'https://mangacross.jp/comics/yabai','漫画',fas fa-link,outline larger %}
+{% btn 'https://bokuyaba-anime.com/','动画官网',fas fa-link,outline larger %}
+{% btn 'https://twitter.com/boku__yaba','漫画官推',fas fa-link,outline larger %}
+{% btn 'https://twitter.com/bokuyaba_anime','动画官推',fas fa-link,outline larger %}
+{% btn 'https://twitter.com/lovely_pig328','原作推特',fas fa-link,outline larger %}
