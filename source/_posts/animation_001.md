@@ -236,7 +236,7 @@ aside: true
 出品：「别酱了」制作委员会（东宝、博报堂DY Music & Pictures、一迅社、AT-X、BS11、PIA、波丽佳音、Movic、TOKYO MX、Bit grooove promotion、EGG FIRM）
 
 ### 封面
-![封面](img/animation_001/nimai_KV.webp)
+![封面](img/animation_001/Onimai_KV.webp)
 
 ### Links
 {% btn 'https://zh.moegirl.org.cn/%E5%88%AB%E5%BD%93%E6%AC%A7%E5%B0%BC%E9%85%B1%E4%BA%86%EF%BC%81','萌娘百科',fas fa-link,outline larger %}
