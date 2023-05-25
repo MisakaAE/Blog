@@ -195,7 +195,8 @@ git config --global --edit
     示例
     ```no-highlight
     set COMMANDLINE_ARGS=--skip-torch-cuda-test
-    ```v
+    ```
+    
     ```no-highlight
     set COMMANDLINE_ARGS=--skip-torch-cuda-test --no-gradio-queue
     ```
