@@ -196,12 +196,8 @@ git config --global --edit
     ```no-highlight
     set COMMANDLINE_ARGS=--skip-torch-cuda-test
     ```
-    
     ```no-highlight
-    set COMMANDLINE_ARGS=--skip-torch-cuda-test --no-gradio-queue
-    ```
-
-    2. 若发生虚拟环境的库安装失败报错，如`installing open_clip`,`This error originates from a subprocess, and is likely not a problem with pip`,`subprocess-exited-with-error` 等。
+    set COMMANDLINE_ARGS=--skip-torch-cuda-test                若发生虚拟环境的库安装失败报错，如`installing open_clip`,`This error originates from a subprocess, and is likely not a problem with pip`,`subprocess-exited-with-error` 等。
 
         多次重试仍然失败，可以在虚拟环境中使用命令自行解决
         以下是解决方案:
