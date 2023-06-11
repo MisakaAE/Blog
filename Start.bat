@@ -19,11 +19,14 @@ exit
 
 :cmd1
 git push -u origin main
+goto menu
 
 
 :cmd2
 hexo clean
+goto menu
 
 
 :cmd3
 hexo server
+goto menu

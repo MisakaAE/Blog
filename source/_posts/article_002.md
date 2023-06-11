@@ -6,7 +6,7 @@ title: "PotPlayer设置参数优化，K-Lite Codec Pack安装，madVR设置"
 date: 2023-06-11 10:50:00
 
 #文章更新日期
-updated: 
+updated: 2023-06-11 10:50:00
 
 #文章标签
 tags: 
