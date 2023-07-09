@@ -6,7 +6,7 @@ title: "NovelAI table-diffusion WebUI 部署教程 问题解决"
 date: 2023-05-22 10:40:20
 
 #文章更新日期
-updated: 
+updated: 2023-6-10 10:00:00
 
 #文章标签
 tags: 
