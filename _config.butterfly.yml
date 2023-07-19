@@ -692,7 +692,7 @@ canvas_nest:
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
   enable: true
-  zIndex: -1 # -1 or 9999
+  zIndex: 114 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
