@@ -67,9 +67,8 @@ aside: true
 + 在安装完上述软件后可以进行下一步操作
 + 安装软件步骤不再赘述，Python记得`Add to PATH`
     都下载最新版本即可，Python用3.11.x版本
-+ 实在弄不懂B站私信我，我出一期视频教程
 
-# 克隆仓库
+# 下载release
 
 + 可选：Clash代理指令（如果你在中国大陆且有机场并用CFW请用，否则忽略这条）
     在常规-端口-终端-复制命令-Powershell
@@ -79,33 +78,30 @@ aside: true
 $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 ```
 
+
+
++ 在GitHub下载release后得到以下文件，在此处打开终端
++ {% btn 'https://github.com/EstrellaXD/Auto_Bangumi/releases','Release',fas fa-link,outline larger %}
+    ![img](/img/article_004/Snipaste_2023-11-09_20-50-41.jpg)
+    ![img](/img/article_004/Snipaste_2023-11-09_14-44-09.png)
+
 + Windows11在WindowsTerminal可以直接复制粘贴，Windows10需要逐行复制，报错一般是网络问题
     
-    [官方文档，注释啥的自己看，我这里改的命令直接一步到位](https://github.com/EstrellaXD/Auto_Bangumi/wiki/Windows-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2)
     {% note red 'fas fa-warning' simple %}
-    注意：在出现`按Enter键继续时请`将`src\config\config_dev.json`的编码改为`UTF-8`后
-    按下<kbd>Enter</kbd>以继续指令的运行
+    注意：新版不需要新建`config.json`
+    如果你有多个Python运行环境且默认不是3.11.x请将下面第二行的python.exe 替换为你Python3.11.x的目录
     {% endnote %}
-    
+
     ```bash
     @echo off
-    git clone https://github.com/EstrellaXD/Auto_Bangumi.git
-    mv .\Auto_Bangumi\requirements.txt .\Auto_Bangumi\backend\
-    cd Auto_Bangumi\backend
-    ((Get-Content -path .\src\module\api\web.py -Raw) -replace 'if VERSION != "DEV_VERSION:','if True:') |  Set-Content -Path .\src\module\api\web.py
-    python -m venv env
+    python.exe -m venv env
     .\env\Scripts\Activate.ps1
     python -m pip install -r requirements.txt
-    Invoke-WebRequest -Uri "https://github.com/Rewrite0/Auto_Bangumi_WebUI/releases/latest/download/dist.   zip" -OutFile "dist.zip"
-    Expand-Archive -Path "dist.zip"
-    mv dist\* src\templates
-    mkdir src\data
-    mkdir src\config
-    echo "{}" > src\config\config_dev.json
+    mkdir data
+    mkdir config
     pause
     cd src
     python main.py
-
     ```
 
 * 若出现`无法加载文件 \env\Scripts\Activate.ps1，因为在此系统上禁止运行脚本。`字样
@@ -118,15 +114,10 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 * 若最后报错缺失库
     请重新输入以下指令检查是否正确运行
     网络不好多试几次
-    ```bash
-    .\env\Scripts\Activate.ps1
-    python -m pip install -r requirements.txt
-    python main.py
-    ```
 
 
 + 可选：开机自启（开机自启方法千千万，用自己喜欢的方法就行）
-
+    这里是NSSM
     ```bash
     nssm install AutoBangumi (Get-Command python).Source
     nssm set AutoBangumi AppParameters (Get-Item .\main.py).FullName
@@ -296,11 +287,7 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
     不是每个人都有钱买服务器或者NAS
 2. Q:为什么报错检查IP端口？
     A:都报错了检查IP端口，powershell输入`netstat -ano 1`看端口被哪个应用占用了，改那个应用端口或者改你的autobangumi端口去，打不开WebUI就在`\Auto_Bangumi\backend\src\config\config_dev.json`这里改
-3. Q:为什么我刚改的东西没保存？
-    A:你是不是没见过`Apply`按钮长什么样子
-4. Q:我实在是不会弄，电脑白吃怎么办？
-    B:去睿站私信我，我出视频行了吧。
-5. Q:为什么xxx这里出错了
+3. Q:为什么xxx这里出错了
     带上报错代码去GitHub发个issue <https://github.com/EstrellaXD/Auto_Bangumi>
 
 # 版权声明
