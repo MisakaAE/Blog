@@ -6,7 +6,7 @@ title: "Windows本地部署全自动追番AutoBangumi无需Docker容器WSL解决
 date: 2023-07-09 12:30:00
 
 #文章更新日期
-updated: 2023-07-09 12:30:00
+updated: 2023-11-09 20:53:00
 
 #文章标签
 tags: 
