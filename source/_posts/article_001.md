@@ -1,6 +1,6 @@
 ---
 #文章标题
-title: "NovelAI table-diffusion WebUI 部署教程 问题解决"
+title: "table-diffusion WebUI 部署教程 问题解决"
 
 #文章创建日期
 date: 2023-05-22 10:40:20
@@ -19,7 +19,6 @@ categories:
 
 #文章关键字
 keywords: 
-    - NovelAI
 
 #文章描述stick
 description: 
