@@ -6,7 +6,7 @@ title: "Windows本地部署全自动追番AutoBangumi无需Docker容器WSL解决
 date: 2023-07-09 12:30:00
 
 #文章更新日期
-updated: 2023-11-09 20:53:00
+updated: 2023-11-13 00:06:00
 
 #文章标签
 tags: 
@@ -109,7 +109,7 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
     ```bash
     set-executionpolicy remotesigned
     ```
-    启用允许运行脚本后，继续从`.c\env\Scripts\Activate.ps1`开始重新运行指令
+    启用允许运行脚本后，继续从`.\env\Scripts\Activate.ps1`开始重新运行指令
 
 * 若最后报错缺失库
     请重新输入以下指令检查是否正确运行
@@ -117,7 +117,7 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 
 
 + 可选：开机自启（开机自启方法千千万，用自己喜欢的方法就行）
-    这里是NSSM
+    这里是用的NSSM，或者参考一下最后面我的脚本
     ```bash
     nssm install AutoBangumi (Get-Command python).Source
     nssm set AutoBangumi AppParameters (Get-Item .\main.py).FullName
@@ -281,6 +281,78 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
     ![img](/img/article_004/Snipaste_2023-07-09_13-46-37.jpg)
     设置完点`Apply`
 
+# 推荐：一键启动脚本
++ 这是我自己写的一键启动脚本，因为我3-4天会去集中看一次新番，所以我并没有设置自启动，但是它可以用以下方法实现自启动
++ 这里一键启动了qbitorrent，Jellyfin和AB，你可以把它新建快捷方式放到`启动`文件夹中，以实现开机自启
+    如果你用其他媒体程序程序或下载程序，如Emby等请自行替换下面的脚本的路径什么的，或者设置一个变量，这样美观一点，我懒得设置了，因为自己用不用这么讲究
+    **如果你要将菜单的文字替换文中文记得将脚本编码设置为ANSI，UTF8中文会乱码**
+    快捷打开文件夹按下<kbd>Windows徽标键</kbd> + <kbd>R</kbd>
+    输入 `shell:startup` 将会自动打开`启动`文件夹，将脚本的快捷方式放入此文件夹即可，
+  
+    ```bash
+    @echo off
+    cls
+
+
+    ::菜单
+    :menu
+    echo 1. Strat all
+    echo 2. Start AutoBangumi
+    echo 3. Start qBitorrent
+    echo 4. Start Jellyfin Server
+    echo 5. Open download folder
+    echo Press:
+    set ID="q"
+    set /p ID="> "
+
+    if "%id%"=="1" goto cmd1
+    if "%id%"=="2" goto cmd2
+    if "%id%"=="3" goto cmd3
+    if "%id%"=="4" goto cmd4
+    if "%id%"=="5" goto cmd5
+    if "%id%"=="q" goto end
+
+    :end
+    exit
+
+    :cmd1
+    echo.等待启动qBitorrent
+    start /d"C:\Program Files\qBittorrent" qbittorrent.exe
+    ::等待3秒
+    timeout /T 3 /NOBREAK
+    ::启动Jellyfin
+    start /d"C:\Program Files\Jellyfin\Server" Jellyfin.Windows.Tray.exe
+    ::进入python虚拟环境
+    call .\env\Scripts\activate
+    ::启动程序
+    python.exe main.py
+    ::回到主菜单
+    goto menu
+
+    ::下面cmd2到cmd4注释就不写了，跟上面一样
+
+    :cmd2
+    call .\env\Scripts\activate
+    python.exe main.py
+    goto menu
+
+    :cmd3
+    start /d"C:\Program Files\qBittorrent" qbittorrent.exe
+    echo 启动成功！2s后返回主菜单
+    timeout /T 2 /NOBREAK
+    goto menu
+
+    :cmd4
+    start /d"C:\Program Files\Jellyfin\Server" Jellyfin.Windows.Tray.exe
+    echo 启动成功！2s后返回主菜单
+    timeout /T 2 /NOBREAK
+    goto menu
+
+    :cmd5
+    ::打开文件夹，这里我设置的是我的下载路径
+    explorer "D:\AutoBangumi\Download"
+```
+
 # Q&A
 1. Q:为什么在Windows本地部署？
     A:因为老子爱在哪部署在哪部署，Windows上弄Docker太吃性能，机械硬盘就硬造
@@ -288,7 +360,7 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 2. Q:为什么报错检查IP端口？
     A:都报错了检查IP端口，powershell输入`netstat -ano 1`看端口被哪个应用占用了，改那个应用端口或者改你的autobangumi端口去，打不开WebUI就在`\Auto_Bangumi\backend\src\config\config_dev.json`这里改
 3. Q:为什么xxx这里出错了
-    带上报错代码去GitHub发个issue <https://github.com/EstrellaXD/Auto_Bangumi>
+    A:带上报错代码去GitHub发个issue <https://github.com/EstrellaXD/Auto_Bangumi>
 
 # 版权声明
 + 搞爬虫不要不识好歹，敢复制粘贴抹掉我的信息我直接把你妈杀了
